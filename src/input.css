@@ -1,4 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Anton&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parisienne&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    * {
+        @apply font-roboto;
+    }
+}
+
+@layer utilities {
+    :root {
+        --primarycolor: #000;
+        --secondarycolor: #fff;
+        --accentcolor: #DF6622;
+        --navbgcolor: #F6F6F6;
+        --maincontentcolor: #FFF8EF;
+    }
+}

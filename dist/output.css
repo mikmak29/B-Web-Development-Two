@@ -570,9 +570,8 @@ video {
   margin-right: auto;
 }
 
-.my-4{
+.mt-4{
   margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 .flex{
@@ -718,12 +717,25 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-\[50px\]{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .pt-5{
   padding-top: 1.25rem;
 }
 
 .pt-\[50px\]{
   padding-top: 50px;
+}
+
+.pb-\[10px\]{
+  padding-bottom: 10px;
+}
+
+.pb-\[20px\]{
+  padding-bottom: 20px;
 }
 
 .text-justify{
